@@ -1,0 +1,5 @@
+title: Dynamic Layouts with SpriteBuilder and Cocos2D 3.x
+cover: cover.png
+teaser_text: |
+    This tutorial details the new positioning system that comes with Cocos2D 3.0 and SpriteBuilder. Part 1 describes the new system and its challenges.
+    Part 2 explains how to create three tablet versions of the same game.
