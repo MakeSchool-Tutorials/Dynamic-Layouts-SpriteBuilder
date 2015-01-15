@@ -26,12 +26,12 @@ I'll first give you brief overview of the different options, then we will use th
 *   **Reference corner:** defines the corner in the parent Node that shall be used as reference point (default is bottom-left), meaning that a Node with position (0,0) will be placed in that corner.
 *   **Position type:** can be individually chosen for vertical positioning and horizontal positioning. There are three options each:
 
-        *   **Points**: this is the default. Points are scaled by a *UIScaleFactor.* In case you built a tablet version of your game the points will be scaled by this factor. The default *UIScaleFactor* for tablet is *2.0*.That means positions are doubled on a tablet.
+*   **Points**: this is the default. Points are scaled by a *UIScaleFactor.* In case you built a tablet version of your game the points will be scaled by this factor. The default *UIScaleFactor* for tablet is *2.0*.That means positions are doubled on a tablet.
     *   **UI Points**: positions using UI Points are never scaled. This means a 10 pt distance will appear 10pt wide on a phone and on a tablet*.* You use this option if you want to build a tablet version of your game that has an increased visible area.
     *   **Normalized**: position is expressed relatively to the size of the parent node. You can choose between 1.0 and 0.0. This is very useful to center Nodes.
 *   **Size type:** can be individually chosen for width and height. There is a total of 5 different options:
 
-        *   **Points:** again, this is the default value. The size is scaled by the *UIScaleFactor*.*   **UI Points:** sizes are provided in absolute points. Sizes stay the same on all device types.
+*   **Points:** again, this is the default value. The size is scaled by the *UIScaleFactor*.*   **UI Points:** sizes are provided in absolute points. Sizes stay the same on all device types.
     *   **Normalized:** size is expressed relatively to the size of the parent node. You can choose between 1.0 and 0.0.
     *   **Inset Points:** this Node will be the size of the parent node MINUS the inset points you defined. The inset points are scaled depending on the device type.You will get to see a practical example of this within this tutorial.
     *   **Inset UI Points:** the same as *Inset Points* except that the inset is not scaled.
@@ -216,7 +216,7 @@ Remove the two Nodes you created for the earlier examples. Now create a new *Col
 
 Set the *position* to (0,0). Set the height to be 100% *of parent container,* and set the the *width* to 150.
 
-	                                       Now add the second Node that shall resize to take the rest of the available screen size:
+Now add the second Node that shall resize to take the rest of the available screen size:
 
 ![](https://static.makegameswith.us/gamernews_images/RdciTbe2lH/Screen Shot 2014-02-17 at 14.45.01.png)
 
@@ -240,8 +240,4 @@ You could be creating a *Gameplay-phone.ccb* and a *Gameplay-tablet.ccb* and che
 
 Well done! While this is only the tip of the layout iceberg part 1 of this tutorial should give you a good idea about the different options you have to solve layout challenges and achieve compatibility for a lot of different device types. Spend some time using all of them and experimenting how they work together.
 
-[Now you can move on to part 2 and learn how to build a table compatible game with SpriteBuilder!](https://www.makegameswith.us/gamernews/370/dynamic-layouts-with-spritebuilder-and-cocos2d-30)
-
-            <div>
-
-            </div>
+Now you can move on to part 2 and learn how to build a table compatible game with SpriteBuilder!

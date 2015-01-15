@@ -3,9 +3,6 @@ title: Dynamic Layouts with SpriteBuilder and Cocos2D 3.x - Part 2
 slug: part-2
 ---               
 
-This tutorial is a sequel of [Dynamic Layouts with SpriteBuilder and Cocos2D 3.x - Part 1](https://www.makegameswith.us/gamernews/361/layouting-with-spritebuilder-and-cocos2d-30-par).
-
-* * *
 
 In this part of the tutorial we will be applying the theoretical knowledge of part 1 to implement three different tablet versions of the same game.
 
@@ -180,7 +177,7 @@ As a last step add a couple more objects to the right part of the scene. Ensure 
 
 Now you can run the game on different device types. The results should look like this:
 
-![](https://static.makegameswith.us/gamernews_images/Ss3YVGnsN0/ResultsFlexibleMode (2).png)
+![](https://static.makegameswith.us/gamernews_images/Ss3YVGnsN0/ResultsFlexibleMode%20(2).png)
 
 No scaling anymore - the bigger the device, the bigger the visible area of the game! **This solution can be useful for tiled games, strategy games and also for side scrollers.**<span style=""></span>
 
@@ -205,7 +202,3 @@ benji@makegameswith.us
 * * *
 
 Thanks a lot to [Viktor](https://twitter.com/viktorlidholt), the developer of SpriteBuilder, for providing valuable support during the creation of this tutorial series.
-
-            <div>
-
-            </div>
