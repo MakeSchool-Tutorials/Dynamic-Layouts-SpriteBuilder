@@ -1,8 +1,8 @@
 ---
 title: Dynamic Layouts with SpriteBuilder and Cocos2D 3.x - Part 2
 slug: part-2
+gamernews_id : 370
 ---               
-
 
 In this part of the tutorial we will be applying the theoretical knowledge of part 1 to implement three different tablet versions of the same game.
 
