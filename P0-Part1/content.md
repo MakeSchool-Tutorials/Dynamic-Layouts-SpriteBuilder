@@ -1,6 +1,7 @@
 ---
 title: Dynamic Layouts with SpriteBuilder and Cocos2D 3.x - Part 1
 slug: part-1
+gamernews_id : 361
 ---              
 
 Cocos2D 3 comes with a completely new positioning system that provides many different position types. This new system helps us to define layouts relative to the screen size and support multiple device sizes out of the box.
