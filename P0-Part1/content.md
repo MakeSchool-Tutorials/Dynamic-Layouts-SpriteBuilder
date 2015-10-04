@@ -1,5 +1,5 @@
 ---
-title: Dynamic Layouts with SpriteBuilder and Cocos2D 3.x - Part 1
+title: Dynamic Layouts with SpriteBuilder & Cocos2D 3.x - Pt 1
 slug: part-1
 gamernews_id : 361
 ---
@@ -52,7 +52,7 @@ When you choose the *Fixed* Screen Mode your scenes will always have the same si
 
 Here's a short illustration to make the concepts comprehensible, the size of the yellow block is expressed as 20% of parents width and height:
 
-![](./ScreenModes.png)
+![Different screen modes](./ScreenModes.png)
 
 As you can see on the left side, using the *flexible* mode, the width of the yellow block changes on different device types. On a wider screen the block appears wider, too.
 
@@ -62,7 +62,7 @@ On the right side, using *fixed* mode the size of the block will stay the same o
 
 Along with these two screen sizes come two different representations in SpriteBuilder. **Flexible** will allow you to switch between different device types (3.5 inch phone, 4 inch phone, tablet) to get a preview of how sizes and positions change. **Fixed** will give you only one representation, highlighting *safe* and *unsafe* areas of the screen:
 
-![](./safeunsafe.png)
+![Highlighting safe and unsafe areas of the screen](./safeunsafe.png)
 
 ## Safe and unsafe areas
 
@@ -157,7 +157,7 @@ This means that by default Sprites on the iPad appear double size than on the iP
 
 You can see/change the default settings displayed in the table above when you select an image that is part of your SpriteBuilder project:
 
-![](./Screen Shot 2014-02-19 at 15.39.15.png)
+![Default settings in table](./Screen Shot 2014-02-19 at 15.39.15.png)
 
 If you ever don't want your tablet version to scale images up, select *2x* for the *tablethd* instead of *4x*. Then all assets will have the same size on the screens of phones and tablets*.* We will be discussing this approach in the second part of the tutorial when we look at different ways to use/avoid upscaling on tablets.
 
@@ -167,7 +167,7 @@ We are going to get started with our first example in SpriteBuilder. Open Sprite
 
 The most important goal we are trying to achieve when using the different layout and sizing options is to create a responsive user interface. When you create a game you should try to target as many device types as possible (3.5 inch iPhones, 4 inch iPhones, iPads, and thanks to Apportable a huge amount of Android devices). All of these devices come with different screen sizes. SpriteBuilder and the new positioning options can help you to define UIs that look good on all kind of devices. In SpriteBuilder's top bar you can open Document -&gt; Resolution and choose between different device types.
 
-![](./Screen Shot 2014-02-04 at 10.04.02.png)
+![Choosing different device types](./Screen Shot 2014-02-04 at 10.04.02.png)
 
 These options will give you a nice preview of how your interface will change depending on the screen size of the device it is running on.
 
@@ -180,7 +180,7 @@ Now lets take a look at our first simple layout challenge. Assume we want a Node
 
 If you worked with this feature of SpriteBuilder before you might know that we need to modify the anchor point and the reference corner to achieve this position. Add a *Color Node* to your *MainScene.ccb* and apply the necessary positioning and sizing options:
 
-![](./Screen Shot 2014-02-17 at 13.30.38.png)
+![Adding a color node](./Screen Shot 2014-02-17 at 13.30.38.png)
 
 You need to change three options to make the node stick in the top right corner:
 
@@ -199,7 +199,7 @@ A common and fairly simple layout challenge. We want a Node that:
 
 Add a second *Color Node* to *MainScene.ccb*:
 
-![](./Screen Shot 2014-02-17 at 14.20.47.png)
+![Adding a second color node](./Screen Shot 2014-02-17 at 14.20.47.png)
 
 You need to chose the following options to place and size the Node as described:
 
@@ -213,13 +213,13 @@ This layout is a little more tricky: You have two Nodes that shall use the entir
 
 Remove the two Nodes you created for the earlier examples. Now create a new *Color Node* and add it to the left part of the screen:
 
-![](./Screen Shot 2014-02-17 at 14.36.35.png)
+![Creating new color nodes](./Screen Shot 2014-02-17 at 14.36.35.png)
 
 Set the *position* to (0,0). Set the height to be 100% *of parent container,* and set the the *width* to 150.
 
 Now add the second Node that shall resize to take the rest of the available screen size:
 
-![](./Screen Shot 2014-02-17 at 14.45.01.png)
+![Adding a second node for resize](./Screen Shot 2014-02-17 at 14.45.01.png)
 
 You need to set the Node up as following:
 
